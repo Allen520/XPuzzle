@@ -40,6 +40,7 @@ import java.util.List;
 public class MainActivity extends Activity implements OnClickListener {
 
     // 返回码：系统图库
+    private static final int RESULT_IMAGE1 = 100;
     private static final int RESULT_IMAGE = 100;
     // 返回码：相机
     private static final int RESULT_CAMERA = 200;
